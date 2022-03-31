@@ -1,13 +1,13 @@
 function insert(num){
     cal.field.value += num
     potongan = cal.field.value.substring(0,1)
-    potongan2 = cal.field.value.substring(0,2)
+    potongan2 = cal.field.value.substring(1,2)
     if(potongan=="+"||potongan=="*"||potongan=="/"||potongan=="%")
     {
          alert("invalid arguments")
          clean()
     }
-    else if(potongan2=="--"||potongan2==".."){
+    else if(potongan2=="-"||potongan2=="/"||potongan2=="+"||potongan2=="."||potongan2=="*"||potongan2=="%"){
          alert("invalid arguments")
          clean()
     }
