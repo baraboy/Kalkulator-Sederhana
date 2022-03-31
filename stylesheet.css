@@ -1,0 +1,41 @@
+* {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 48px;
+    box-sizing: border-box;
+    background-color: #F05454;
+
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #30475E;
+    color: #E8E8E8;
+    padding: 14px 20px;
+    font-size: 28px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.block:hover {
+    background-color: #222831;
+}
+
+input {
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    text-align: right;
+    background-color: #E8E8E8;
+    resize: none;
+    color: #30475E;
+}
