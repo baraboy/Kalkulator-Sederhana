@@ -7,7 +7,7 @@ function insert(num){
          alert("invalid arguments")
          clean()
     }
-    else if(potongan2=="-"||potongan2=="/"||potongan2=="+"||potongan2=="."||potongan2=="*"||potongan2=="%"){
+    else if(potongan2=="--"||potongan2=="//"||potongan2=="++"||potongan2==".."||potongan2=="**"||potongan2=="%%"){
          alert("invalid arguments")
          clean()
     }
